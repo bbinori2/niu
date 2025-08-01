@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--下方為設定使網站可以使用中文-->
+        <!--在這裡套用大部分的風格與預設-->
+        <meta charset="UTF-8"/>
+        <meta name="description" content="滿足108課綱學習歷程,專門面向國立台東大學的全面學習歷程解析"/>
+        <meta name="author" content="歐文"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="keywords" content="台東大學,台東大學資工系,資工系,台東大學資工系學習歷程"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="icon" type="image/png" href="圖文/nttu-icon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <title>
+            主頁|NTTUCSIE
+        </title>
+        <style type="text/css">
+            .btn {
+                background-color: transparent; /* 移除按鈕的背景 */
+                border: none; /* 移除按鈕的邊框 */
+                margin-left: 30px;
+                text-decoration: none; /* 移除超連結的下底線 */
+                color: black;
+            }
+            .btn:hover {
+                text-decoration: underline;
+                border-bottom: 1px solid black; 
+            }
+            .btn2 {
+                display: inline-block;
+                text-decoration: none;
+                text-align: center;
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                margin: 30px 50px 0px;
+            }
+
+            .btn2 img {
+                width: 80px;
+                height: 80px;
+                display: block;
+                border-radius: 50%; /* 將圖片裁剪成圓形 */
+                margin: 0 auto; /* 使圖片置中 */
+            }
+
+            .btn2 span {
+                display: block;
+                margin-top: 5px; /* 調整文字與圖片的間距 */
+                color: black;
+                font-weight: bold;
+            }
+        #wrapper{
+            width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #navbar{
+            height: 150px;
+        }
+        #banner{
+            height: 500px;
+        }
+        #inter{
+            height: 150px;
+            background-color: #F1F1F1;
+            text-align:center;
+        }
+        #content1{
+            height: 500px;
+            background-color: rgb(255, 255, 255);
+        }
+        #content2{
+            height: 1400px;
+            background-color: #F1F1F1
+        }
+        #content3{
+            height: 700px;
+            background-color: rgb(255, 255, 255);
+        }       
+        #footer{
+            height: 105px;
+            background-color: #F1F1F1
+        }
+        </style>
+    </head>
+    <body>
+        <!--下方為設定title大小-->
+        <!--h 標題大小 i italics斜體字 b bold粗體字-->
+        <!--br 空行 hr horizontal_rule水平分隔線-->
+        <!-- font-size設定字體大小 border格式 px+框線 (solid,dashed)+color background-color max-width 最大寬度-->
+        <!--設定顏色使用 數字編碼 rgb hsl-->
+        <div id="wrapper">
+            <div id="navbar">
+                <table width="1100" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td width="320" height="150">
+                                <a href="https://nwcsie.nttu.edu.tw/">
+                                    <img src="圖文/台東大學資工系 (1).png" height="50" alt="系名">
+                                </a>
+                            </td>
+                            <td width="150"></td>
+                            <td width="669">
+                                <a href="index.html" class="btn btn-primary">HOME</a>
+                                <a href="filePage.html" class="btn btn-secondary">學習歷程專區</a>
+                                <a href="intPage.html" class="btn btn-danger">系所師資</a>
+                                <a href="linkPage.html" class="btn btn-danger">重要連結</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="banner">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" height="500">
+                    <div class="carousel-inner">
+                        <div class="carousel-item bg-body active">
+                            <img src="圖文/c1.jpg" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c2.jpg" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c3.png" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c4.png" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c5.png" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c6.jpg" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div id="inter">
+                <a href="#content1" class="btn2 btn-1">
+                    <img src="按鈕ICON/01.png" alt="Your Image">
+                    <span>一手消息</span>
+                </a>
+                <a href="#content2" class="btn2 btn-2">
+                    <img src="按鈕ICON/02.png" alt="Your Image">
+                    <span>課程地圖</span>
+                </a>
+                <a href="#content3" class="btn2 btn-3">
+                    <img src="按鈕ICON/03.png" alt="Your Image">
+                    <span>東大地圖</span>
+                </a>
+                <a href="#footer" class="btn2 btn-4">
+                    <img src="按鈕ICON/04.png" alt="Your Image">
+                    <span>聯絡我們</span>
+                </a>
+            </div>
+            <div id="content1">
+                <table width="1100" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                                <td width="366">
+                                    <a href="https://wcsie.nttu.edu.tw/" style="text-decoration: none; color: black; font-size: 24px; font-weight: bold;">資工系消息</a>
+                                        <br>
+                                        <a href="https://wcsie.nttu.edu.tw/p/406-1022-144183,r907.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-11-28 &#8203;113級資訊專題分組名單</strong></a>
+                                        </br></br>
+                                        <a href="https://wcsie.nttu.edu.tw/p/406-1022-144129,r907.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-11-27 &#8203;113級專題展</strong></a>
+                                        </br></br>    
+                                            <a href="https://wcsie.nttu.edu.tw/p/406-1022-143817,r907.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-11-20 &#8203;113級資工系專題展海報底圖</strong></a>
+                                        </br></br>
+                                        <a href="https://wcsie.nttu.edu.tw/p/406-1022-143822,r907.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-11-20 &#8203;113級專題海報截止時間</strong></a>
+                                        </br></br>
+                                        <a href="https://wcsie.nttu.edu.tw/p/406-1022-143328,r907.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-11-09 &#8203;113學年度資工系碩士班甄試第二階段面試公告</strong></a>
+                                </td>
+                                <td width="366">
+                                        <a href="https://www.nttu.edu.tw/" style="text-decoration: none; color: black; font-size: 24px; font-weight: bold;">東大消息</a>
+                                        <br>
+                                        <a href="https://rd.nttu.edu.tw/p/404-1007-144798-1.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-12-11 &#8203;【研發處】通報-請各單位於1214(四)1840~2040配合提供校務評鑑待釐清問題相關資料</strong></a>
+                                        </br></br>
+                                        <a href="https://dga.nttu.edu.tw/p/404-1008-144697-1.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-12-08 &#8203;【總務處營繕組】有關校本部西側門第二機車停車場地坪改善工程施作一事。</strong></a>
+                                        </br></br>
+                                        <a href="https://sped.nttu.edu.tw/p/404-1035-144658-1.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-12-07 &#8203;【恭賀】 特教一榮獲112學年度第一學期亞德客獎助金!!!</strong></a>
+                                        </br></br>
+                                        <a href="https://rd.nttu.edu.tw/p/404-1007-144495-1.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-12-04 &#8203;【研發處】112年度下半年第三週期大學校院校務評鑑資訊 實地訪評手冊</strong></a>
+                                        </br></br>
+                                        <a href="https://nlib.nttu.edu.tw/p/404-1006-105269-1.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-12-01 &#8203;【圖書資訊館】系統發展組-招募112學年第2學期軟體系統開發實習生2名,報名至112/12/20止。</strong></a>
+                                </td>
+                                <td widht="366">
+                                        <a href="https://enrl.nttu.edu.tw/" style="text-decoration: none; color: black; font-size: 24px; font-weight: bold;">招生消息</a>
+                                        <br>
+                                        <a href="https://enrl.nttu.edu.tw/p/406-1040-144250,r1246.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-12-05 &#8203;【113特殊選才】合格考生名單及面試地點公告</strong></a>
+                                        </br></br>
+                                        <a href="https://enrl.nttu.edu.tw/p/406-1040-144008,r1246.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-11-24 &#8203;【113重點運動獨招】重點運動項目績優學生單獨招生簡章</strong></a>
+                                        </br></br>
+                                        <a href="https://enrl.nttu.edu.tw/p/406-1040-144011,r1246.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-11-24 &#8203;【113原住民專班】招生簡章</strong></a>
+                                        </br></br>
+                                        <a href="https://enrl.nttu.edu.tw/p/406-1040-143167,r1246.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-11-06 &#8203;【113二年制在職專班】簡章公告</strong></a>
+                                        </br></br>
+                                        <a href="https://enrl.nttu.edu.tw/p/406-1040-142087,r1246.php?Lang=zh-tw" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">2023-10-12 &#8203;【113特殊選才】招生簡章公告</strong></a>
+                                </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="content2" style="text-align: center;">
+                <p style="font-size: 24px; font-weight: bold;">必修課程地圖</p>
+                <img src="圖文/必修課程地圖.png" style="display: block; margin: 0 auto;" height="637">
+                <p style="font-size: 24px; font-weight: bold;">選修課程地圖</p>
+                <img src="圖文/選修.png" style="display: block; margin: 0 auto;" height="637">
+            </div>
+            <div id="content3">
+                <p style="font-size: 24px; font-weight: bold;">知本校區地圖</p>
+                <img src="圖文/地圖.png" style="display: block; margin: 0 auto;" height="637">               
+            </div>
+            <img src="圖文/漂亮NA.jpg" width="1100px">
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v19.0&appId=889668339216667" nonce="TAiK4bdj"></script>
+            <div id="footer" style="display: flex; justify-content: space-between;  padding: 0 20px;">
+                <div style="font-size: 30px; font-weight: bold;">
+                <p>國立臺東大學 資訊工程學系</p>  
+                <p>NTTU CSIE  <div class="fb-like" data-href="https://web.nttu.edu.tw/c12/file/ftext.html" data-width="150" data-height="20" data-action="" data-size="" data-share="true"></div>
+                </p>
+                </div>
+                <div style="text-align: left;">
+                <p>地址:95092臺東市大學路2段369號</p>   
+                <p>TEL:089-318855轉6201</p>
+                <p>E-mail:chifu@nttu.edu.tw</p>
+                </div>
+            </div>
+            <a href="#navbar" style="position: fixed; bottom: 20px; right: 10px; padding: 5px; width: 80px; height: 80px; background-color: rgb(14, 235, 224); border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: rgb(255, 255, 255);">
+                &Lambda;
+            </a>
+        <!--padding(內邊界) & margin(外邊界)實作-->
+        <!--指定空間朝向如:padding-top bottom left right-->
+        <!--指定空間朝向為順時鐘 20px 30px 40px 50px => 上20 右30 下40 左50-->
+        <!--margin可為負值-->       
+        <!--連結&圖片--> 
+        <!--a attributes屬性  href hypertext_reference超文本引用 -->
+        <!--src source_file資源檔案 img image照片 video 影片-->
+        <!--float & display實作-->
+        <!--block:如<p> inline:如<span> 可以藉由style定義-->
+        <!--position實作-->
+        <!--fixed固定 可選固定位子 top bottom-->
+        <!--relative 相對定位 以原位為原點偏移-->
+        <!--absolute 絕對定位 原理與fixed相似 但是並不隨著網頁移動-->        
+        <!--列表&表格--> 
+        <!--ul unordered_list黑點排序 ol ordered_list 有順序的排序 -->
+        <!--tr table_row表格行 td table_data表格數據 -->
+        <!--html的容器 div&span-->
+        <!--div 佔一排 span在乎寬度-->
+        <!--html輸入標籤-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('#carouselExampleFade').carousel({
+                interval: 3000 // 設定自動滾動時間，以毫秒為單位
+            });
+        });
+        </script>
+    </body>
+</html>

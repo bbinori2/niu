@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="滿足108課綱學習歷程,專門面向國立台東大學的全面學習歷程解析"/>
+        <meta name="author" content="歐文"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="keywords" content="台東大學,台東大學資工系,資工系,台東大學資工系學習歷程"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="icon" type="image/png" href="圖文/nttu-icon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        
+        <title>
+            學習歷程專區|NTTUCSIE
+        </title>
+        <style type="text/css">
+            .btn {
+                background-color: transparent; /* 移除按鈕的背景 */
+                border: none; /* 移除按鈕的邊框 */
+                margin-left: 30px;
+                text-decoration: none; /* 移除超連結的下底線 */
+                color: black;
+            }
+            .btn:hover {
+                text-decoration: underline;
+                border-bottom: 1px solid black; 
+            }
+            #wrapper{
+                width: 1100px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #navbar{
+                    height: 150px;
+            }
+            #banner{
+                    height: 500px;
+            }
+            #content1{
+                height: 1100px;
+                background-color:rgb(255, 255, 255);
+                text-align:center;
+            }
+            #content2{
+                height: 1000px;
+                background-color: #F1F1F1;
+                text-align:center;
+            }
+            #content3{
+                height: 1000px;
+                background-color:rgb(255, 255, 255);
+                text-align:center;
+            }
+            #footer{
+            height: 105px;
+            background-color: #F1F1F1
+        }
+            #pagination{
+                margin-top: 10px;
+                text-align:center;
+            }
+            .page {
+            margin: 0 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+            }   
+
+            .page.active {
+            background-color: #ccc;
+            }
+
+
+            .item {
+            display: none; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="navbar">
+                <table width="1100" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td width="320" height="150">
+                                <a href="https://nwcsie.nttu.edu.tw/">
+                                    <img src="圖文/台東大學資工系 (1).png" height="50" alt="系名">
+                                </a>
+                            </td>
+                            <td width="150"></td>
+                            <td width="669">
+                                <a href="index.html" class="btn btn-primary">HOME</a>
+                                <a href="filePage.html" class="btn btn-secondary">學習歷程專區</a>
+                                <a href="intPage.html" class="btn btn-danger">系所師資</a>
+                                <a href="linkPage.html" class="btn btn-danger">重要連結</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="banner">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" height="500">
+                    <div class="carousel-inner">
+                        <div class="carousel-item bg-body active">
+                            <img src="圖文/c1.jpg" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c2.jpg" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c3.png" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c4.png" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c5.png" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c6.jpg" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div id="content1">
+                    <p>課程學習成果</p>
+                    <div id="pagination">
+                        <button class="page">C.實作作品、D.自然探究與實作</button>
+                    </div>
+                    <div class="item">
+                        <p>實作作品的範圍十分廣泛，可以是影音檔、網站、程式設計實作、或參賽作品等，</p>
+                        <p>說明學習收穫和心得反思，是確認你對作品關聯的重點，也是教授最在乎的部分。</p>
+                        <p>(1)注意可讀性，排版、標題與內文的字體和大小，都是整體性的表現，也能讓教授更方便審查。</p>
+                        <p>(2)請挑特定重點作品上傳，聚集焦點，重質不重量，教授在面試時有可能會一作品內容提問。</p>
+                        <p>(3)建議在每一項下方補上簡介、製作動機、心得反思，讓教授瞭解作品與課程的關聯，說明會選擇此作品上傳的原因，與系連結佳，但與自己</p>
+                        <p>的說詞一致才是重點。</p>
+                    </div>
+                    <iframe src="學習歷程檔案/課程學習成果(B-E)/中原機械 課程學習成果.pdf" width="500px" height="700px"></iframe>
+                    <iframe src="學習歷程檔案/課程學習成果(B-E)/課程學習成果範例4.pdf" width="500px" height="700px"></iframe>
+                </div>
+                <div id="content2">
+                    <p>多元表現</p>
+                    <div id="pagination">
+                        <button class="page">F.高中自主學習計畫與成果</button>
+                        <button class="page">J.競賽表現</button>
+                        <button class="page">L.檢定證照</button>
+                        <button class="page">M.特殊優良表現證明</button>
+                        <button class="page">N.多元表現綜整心得</button>
+                    </div>
+                    <div class="item">
+                        <p>建議以周為單位規劃自主學習，並將每周的心得，遇到的難點，和如何解決做出回覆，</p>
+                        <p>同時邀請老師同學進行互評，為企劃增添說服力</p>
+                        <p>同時注意事項和實作作品類似，可以參閱 C.實作作品、D.自然探究與實作。</p>
+                    </div>
+                    <div class="item">
+                        <p>競賽表現的呈現不一定要是與本系專業能力有關，可以切合個人特質，</p>
+                        <p>請記得標記競賽名稱、項目、等級、成績、相關資料。</p>
+                    </div>
+                    <div class="item">
+                        <p>檢定證照的呈現不一定要是與本系專業能力有關，可以切合個人特質，</p>
+                        <p>請記得標記證照名稱、項目、等級、成績、相關資料。</p>
+                    </div>
+                    <div class="item">
+                        <p>特殊優良表現證明可以包括特殊幹部經歷，營隊表現，特殊能力等，</p>
+                        <p>任何可以讓教授對你有正面評價的活動，同樣可以嘗試描述與扣合個人特質。</p>
+                    </div>
+                    <div class="item">
+                        <p>負責綜合以上四個項目，分項寫出各項細節，可以說是最重要的項目，</p>
+                        <p>可以以圖或簡表整合，並針對每個細節做描寫，嘗試描述與扣合個人特質，</p>
+                        <p>說服教授同時再次整理自己的申請理由。</p>
+                    </div>
+                    <iframe src="學習歷程檔案/多元表現(F-N)/嘉南藥理 自主學習計畫.pdf" width="500px" height="700px"></iframe>
+                    <iframe src="學習歷程檔案/多元表現(F-N)/政大會計 自主學習.pdf" width="500px" height="700px"></iframe>
+                </div>
+                <div id="content3">
+                    <p>學習歷程自述</p>
+                    <div id="pagination">
+                        <button class="page">O.高中學習歷程反思</button>
+                        <button class="page">P.就讀動機</button>
+                        <button class="page">Q.未來學習計畫與生涯規劃</button>
+                    </div>
+                    <div class="item">
+                        <p>高中學習歷程反思必須把握幾大要點:</p>
+                        <p>(1)先有大項，後有小項。可以以時間軸、個人特質發散等方式思考</p>
+                        <p>，如何確立志向，支持的證據?</p>
+                        <p>(2)重點標註突出特點，搭配圖表，讓教授一目了然。</p>
+                        <p>(3)整合學習脈絡，將高中三年的學習檔案，統合並梳理脈絡。</p>
+                    </div>
+                    <div class="item">
+                        <p>就讀動機可以從學校、學系對自身的吸引力，開始描述。</p>
+                        <p>在何方面與自身能力特質契合，讓教授知道為甚麼你選這裡，也讓教授有選擇你的理由。</p>
+                        <p></p>
+                    </div>
+                    <div class="item">
+                        <p>以短期，中期，長期設定學習目標，如何實現，需要甚麼背景能力、</p>
+                        <p>能增進哪一方面的技能，為甚麼，最好能已經開始短期，拿出成績證明</p>
+                        <p>可以給出最有力的證明。</p>
+                    </div>
+                    <iframe src="學習歷程檔案/學習歷程自述(O-Q)/台大社工 學習歷程自述.pdf" width="500px" height="700px"></iframe>
+                    <iframe src="學習歷程檔案/學習歷程自述(O-Q)/逢甲資工 學習歷程自述.pdf" width="500px" height="700px"></iframe>
+
+                </div>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v19.0&appId=889668339216667" nonce="TAiK4bdj"></script>
+                <div id="footer" style="display: flex; justify-content: space-between;  padding: 0 20px;">
+                    <div style="font-size: 30px; font-weight: bold;">
+                    <p>國立臺東大學 資訊工程學系</p>  
+                    <p>NTTU CSIE  <div class="fb-like" data-href="https://web.nttu.edu.tw/c12/file/ftext.html" data-width="150" data-height="20" data-action="" data-size="" data-share="true"></div>
+                    </div>
+                    <div style="text-align: left;">
+                    <p>地址:95092臺東市大學路2段369號</p>   
+                    <p>TEL:089-318855轉6201</p>
+                    <p>E-mail:chifu@nttu.edu.tw</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#navbar" style="position: fixed; bottom: 20px; right: 10px; padding: 5px; width: 80px; height: 80px; background-color: rgb(14, 235, 224); border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: rgb(255, 255, 255);">
+                &Lambda;
+            </a>
+            
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script>
+            $(document).ready(function(){
+                $('#carouselExampleFade').carousel({
+                    interval: 3000 // 設定自動滾動，以毫秒
+                });
+            });
+            const content1Items = document.querySelectorAll('#content1 .item');
+            const content1Pages = document.querySelectorAll('#content1 .page');
+            const content2Items = document.querySelectorAll('#content2 .item');
+            const content2Pages = document.querySelectorAll('#content2 .page');
+            const content3Items = document.querySelectorAll('#content3 .item');
+            const content3Pages = document.querySelectorAll('#content3 .page');
+            const itemsPerPage = 1;
+
+            function displayItems(pageToShow, items, pages) {
+                const startIndex = (pageToShow - 1) * itemsPerPage;
+                const endIndex = startIndex + itemsPerPage;
+
+                items.forEach((item, index) => {
+                    if (index >= startIndex && index < endIndex) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            }
+
+            displayItems(1, content1Items, content1Pages);
+            displayItems(1, content2Items, content2Pages);
+            displayItems(1, content3Items, content3Pages);
+
+            function handlePagination(pages, items) {
+                pages.forEach((page, index) => {
+                    page.addEventListener('click', () => {
+                        pages.forEach((p) => p.classList.remove('active'));
+                        page.classList.add('active');
+                        displayItems(index + 1, items, pages);
+                    });
+                });
+            }
+
+            handlePagination(content1Pages, content1Items);
+            handlePagination(content2Pages, content2Items);
+            handlePagination(content3Pages, content3Items);
+            </script>
+    </body>
+</html>

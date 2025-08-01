@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="滿足108課綱學習歷程,專門面向國立台東大學的全面學習歷程解析"/>
+        <meta name="author" content="歐文"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="keywords" content="台東大學,台東大學資工系,資工系,台東大學資工系學習歷程"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="icon" type="image/png" href="圖文/nttu-icon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        
+        <title>
+            重要連結|NTTUCSIE
+        </title>
+        <style type="text/css">
+            .btn {
+                background-color: transparent; /* 移除按鈕的背景 */
+                border: none; /* 移除按鈕的邊框 */
+                margin-left: 30px;
+                text-decoration: none; /* 移除超連結的下底線 */
+                color: black;
+            }
+            .btn:hover {
+                text-decoration: underline;
+                border-bottom: 1px solid black; 
+            }
+            #wrapper{
+                width: 1100px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #navbar{
+                    height: 150px;
+            }
+            #banner{
+                    height: 500px;
+            }
+            #content0{
+                height: 200px;
+                background-color: #F1F1F1;
+            }
+            #content1{
+                height: 200px;
+                background-color:rgb(255, 255, 255);
+            }
+            #content2{
+                height: 300px;
+                background-color: #F1F1F1;
+            }
+            #footer{
+                height: 105px;
+                background-color: rgb(255, 255, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="navbar">
+                <table width="1100" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td width="320" height="150">
+                                <a href="https://nwcsie.nttu.edu.tw/">
+                                    <img src="圖文/台東大學資工系 (1).png" height="50" alt="系名">
+                                </a>
+                            </td>
+                            <td width="150"></td>
+                            <td width="669">
+                                <a href="index.html" class="btn btn-primary">HOME</a>
+                                <a href="filePage.html" class="btn btn-secondary">學習歷程專區</a>
+                                <a href="intPage.html" class="btn btn-danger">系所師資</a>
+                                <a href="linkPage.html" class="btn btn-danger">重要連結</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="banner">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" height="500">
+                    <div class="carousel-inner">
+                        <div class="carousel-item bg-body active">
+                            <img src="圖文/c1.jpg" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c2.jpg" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c3.png" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c4.png" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c5.png" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                          <div class="carousel-item bg-body">
+                            <img src="圖文/c6.jpg" class="d-block w-100" alt="..."width="1100" height="500">
+                          </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div id="content0">
+                <p style="font-weight: bold; font-size: 30px;">東大重要連結</p>  
+                <a href="https://www.nttu.edu.tw/" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">--&gt;臺東大學首頁&#8203;</strong></a>
+                <br>
+                <a href="https://enrl.nttu.edu.tw/" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">--&gt;臺東大學招生專區&#8203;</strong></a>
+                <br>
+                <a href="https://wcsie.nttu.edu.tw/" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">--&gt;東大資工首頁 &#8203;</strong></a>
+            </div>
+            <div id="content1">
+                <p style="font-weight: bold; font-size: 30px;">精選訊息連結</p>  
+                <a href="https://reurl.cc/VNpa1n" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: rgb(255, 1, 1);">--&gt;學習歷程範例檔案下載&#8203;</strong></a>
+                <br>
+                <a href="https://www.cac.edu.tw/cacportal/jbcrc/LearningPortfolios_MultiQuery_ppa/index.php" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">--&gt;大學招生委員會 &#8203;</strong></a>
+                <br>
+                <a href="https://www.cac.edu.tw/apply113/system/ColQry_vforStu113apply_GF84ad9zx/html/113_038142.htm?v=1.0" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">--&gt;東大資工個申詳細資料 &#8203;</strong></a>
+                <br>
+                <a href="https://collego.edu.tw/" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">--&gt;collego! &#8203;</strong></a>
+                <br>
+                <a href="https://student.104.com.tw/epf/" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><strong style="color: black;">--&gt;104學習歷程 &#8203;</strong></a>
+            </div>
+            <div id="content2">
+                <p style="font-weight: bold; font-size: 30px;">特別感謝</p>  
+                <p>感謝包括但不限於</p>
+                <p> 指導老師 李佳衛</p>
+                <p> 台大社工 黃翊凱 嘉南藥理 吳怡蓁</p>
+                <p> 逢甲資工 陳建豪 政大會計 高立妍 忘記讀哪裡的 賴芊羽</p>
+                <p>買酒給我喝的東大資工同學，載我去火車站的怪人。</p>
+                <p>復旦國中、內壢高中的快樂小夥伴們所提供的學習歷程範例，撰寫建議與關鍵字提供。</p>
+            </div>
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v19.0&appId=889668339216667" nonce="TAiK4bdj"></script>
+            <div id="footer" style="display: flex; justify-content: space-between;  padding: 0 20px;">
+                <div style="font-size: 30px; font-weight: bold;">
+                <p>國立臺東大學 資訊工程學系</p>  
+                <p>NTTU CSIE  <div class="fb-like" data-href="https://web.nttu.edu.tw/c12/file/ftext.html" data-width="150" data-height="20" data-action="" data-size="" data-share="true"></div>
+                </p>
+                </div>
+                <div style="text-align: left;">
+                <p>地址:95092臺東市大學路2段369號</p>   
+                <p>TEL:089-318855轉6201</p>
+                <p>E-mail:chifu@nttu.edu.tw</p>
+                </div>
+            </div>
+            <a href="#navbar" style="position: fixed; bottom: 20px; right: 10px; padding: 5px; width: 80px; height: 80px; background-color: rgb(14, 235, 224); border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: rgb(255, 255, 255);">
+                &Lambda;
+            </a>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script>
+            $(document).ready(function(){
+                $('#carouselExampleFade').carousel({
+                    interval: 3000 // 設定自動滾動時間，以毫秒為單位
+                });
+            });
+            </script>
+    </body>
+</html>
